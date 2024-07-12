@@ -40,7 +40,7 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                 <div className="mt-6 flex items-center">
                   <div className="overflow-hidden rounded-full border-2 border-white shadow-[0_0_0_2px] shadow-primary">
                     <ImageFallback
-                      src={author.avatar}
+                      // src={author.avatar}
                       width={50}
                       height={50}
                       alt="author"

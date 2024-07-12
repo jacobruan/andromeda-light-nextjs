@@ -42,10 +42,10 @@ const Post = ({ post, i }) => {
           </div>
           <div className="pl-5">
             <p className="font-medium text-dark">
-              {post.frontmatter.author.name}
+              {/* {post.frontmatter.author.name} */}
             </p>
             <p>
-              {dateFormat(post.frontmatter.date)} - {readingTime(post.content)}
+              {/* {dateFormat(post.frontmatter.date)} - {readingTime(post.content)} */}
             </p>
           </div>
         </div>

@@ -47,9 +47,9 @@ const PostSingle = ({ frontmatter, content, mdxContent, recentPosts }) => {
                     />
                   </div>
                   <div className="pl-5">
-                    <p className="font-medium text-dark">{author.name}</p>
+                    <p className="font-medium text-dark">{/* {author.name} */}</p>
                     <p>
-                      {dateFormat(date)} - {readingTime(content)}
+                      {/* {dateFormat(date)} - {readingTime(content)} */}
                     </p>
                   </div>
                 </div>
